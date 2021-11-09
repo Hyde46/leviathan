@@ -1,0 +1,21 @@
+[package]
+name = "leviathan"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+authors = ["Denis Heid"]
+description = "leviathan - Terminal user interface to Kraken exchange"
+homepage = "https://github.com/Hyde46/leviathan"
+repository = "https://github.com/Hyde46/leviathan"
+
+[package.metadata.deb]
+maintainer = "Denis Heid"
+copyright = "2021, Denis Heid"
+license-file = ["LICENSE"]
+depends = "$auto"
+section = "utility"
+
+
+[dependencies]
+tui = { vesion = "0.16.0", features = ["termion"]}
