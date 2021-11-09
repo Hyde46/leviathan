@@ -16,6 +16,3 @@ license-file = ["LICENSE"]
 depends = "$auto"
 section = "utility"
 
-
-[dependencies]
-tui = { vesion = "0.16.0", features = ["termion"]}
